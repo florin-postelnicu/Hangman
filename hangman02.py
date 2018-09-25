@@ -1,7 +1,7 @@
 '''
 word is the word player needs to guess
 
-new_word is the "guess" word, as the game starts
+new_word is the "guessed" word, as the game starts
 At the beginning every missing letter is substituted by a '*'
 As the game progresses , the letters that are correctly discovered are
 replacing the stars'*' in the new _word
