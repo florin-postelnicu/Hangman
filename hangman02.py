@@ -20,9 +20,6 @@ new_word = []
 for i in range(len(list)):
     new_word.append("*")
 print(new_word)
-print(len(new_word))
-
-
 while '*' in new_word:
     print("enter a letter\n\n")
     letter = input()
@@ -31,3 +28,4 @@ while '*' in new_word:
             new_word[i] = letter
             continue
     print(new_word)
+quit()
