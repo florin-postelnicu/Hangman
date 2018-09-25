@@ -25,7 +25,6 @@ while '*' in new_word:
         switch = 0
     else:
         letters.append(letter)
-        print(letters)
         for i in range(len(list)):
             if list[i] == letter:
                 new_word[i] = letter
