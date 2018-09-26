@@ -1,7 +1,7 @@
 '''
 The chosen text is not always split in individual words.
 In some situations , two wodrs appear as a single one,
-and that it happens, for the respective words being on two diffwrent consecutive rows.
+and that it happens, when the respective words are on two diffwrent consecutive rows.
 like in example:
    wolf
    met
