@@ -62,7 +62,7 @@ while '*' in new_word:
             if lista[i] == letter:
                 new_word[i] = letter
                 switch = 1
-                continue
+                
     print(new_word, "\n")
     if switch == 0 :
         penalty +=1
