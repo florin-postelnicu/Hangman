@@ -9,6 +9,9 @@ from hangmanlist import *
 
 makes accessible the wordlist through its same name (homonym)
 
+In this version the Player can choose to continue the game
+if he guesses the word.
+
 '''
 
 
@@ -59,6 +62,7 @@ while another == 'y':
         print ("penalty = ", penalty, "\n")
         if penalty >= 7:
             print("You lost this time \n")
+            quit()
 
         switch = 0
 
