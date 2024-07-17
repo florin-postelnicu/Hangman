@@ -2,7 +2,7 @@
 This version uses a wordlist of about 21 000 words.
 The file with the list is
     hangmanlist.py
-and should be loaded on the same directory like hangman.py
+and should be loaded on the same directory as hangman.py
 
 The line
 from hangmanlist import *
@@ -30,7 +30,7 @@ def good_word(listw):
 another = 'y'
 while another == 'y':
     word = good_word(wordlist)
-    print(word)
+   #
 
     lista = list(word)
     # print(list)
@@ -62,12 +62,15 @@ while another == 'y':
         print ("penalty = ", penalty, "\n")
         if penalty >= 7:
             print("You lost this time \n")
+            print(word)
             quit()
 
         switch = 0
 
     print("Congrats, you got the word !")
+    print(word)
     print("\n\n  Do you want to play another game y/n\t")
     another = input()
 print("Thank you for playing hangman !")
+
 quit()
